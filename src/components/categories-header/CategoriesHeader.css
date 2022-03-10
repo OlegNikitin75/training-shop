@@ -1,0 +1,133 @@
+.categories__header {
+    background-color: var(--cornflower_blue-color);
+    padding: 7px 0 24px;
+}
+
+.categories__head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    min-height: 32px;
+}
+
+.categories__title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+
+}
+
+.categories__share {
+    padding-left: 20px;
+    background-image: url(../../img/icons/share.svg);
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    opacity: 0.6;
+    transition: 0.3s ease-in-out;
+}
+
+.crumbs__link {
+    font-weight: 500;
+    font-size: 11px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.crumbs__link:hover {
+    opacity: 1;
+}
+
+.crumbs__arrow {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 6px;
+    background-image: url(../../img/icons/arrow-bread.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.crumbs__link--active {
+    opacity: 1;
+}
+
+.categories__share:hover {
+    opacity: 1;
+}
+
+.categories__filters-item__head {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0 16px;
+}
+
+.categories__filters-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px 0 0;
+}
+.categories__filters-item:last-child {
+    padding: 0 0 0 15px ;
+}
+
+.categories__filters-btn,
+.categories__filters-button,
+.categories__filters-btn-select {
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    opacity: 0.6;
+    transition: 0.3s ease-in-out;
+}
+
+.categories__filters-btn {
+    padding-left: 40px;
+    background-position: 0 center;
+}
+
+.categories__filters-button {
+    width: 32px;
+}
+
+.categories__filters-btn:hover,
+.categories__filters-button:hover {
+    opacity: 1;
+}
+
+.categories__filters-btn--on {
+    background-image: url(../../img/icons/filter.png);
+}
+
+.categories__filters-btn--off {
+    background-image: url(../../img/icons/close.png);
+}
+
+.categories__filters-btn--list {
+    background-image: url(../../img/icons/view-list.png);
+}
+
+.categories__filters-btn--grid {
+    background-image: url(../../img/icons/view-grid.png);
+}
+
+.categories__filters-btn-select {
+    padding-right: 20px;
+    height: 32px;
+    background-position: 100% center;
+    background-image: url(../../img/icons/chevron-down.png);
+}
+
+.categories__filters-btn-select:hover {
+    opacity: 1;
+}

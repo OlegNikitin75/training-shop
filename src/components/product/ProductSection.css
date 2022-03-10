@@ -1,0 +1,51 @@
+.product__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.product-preview__wrapper {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.product-preview__buttons {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.product-preview__button {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.6;
+    transition: 0.3s ease-in-out;
+}
+
+.product-preview__button:hover {
+    opacity: 1;
+}
+
+.btn-up {
+    background-image: url(../../img/icons/chevron-preview-up.png);
+}
+
+.btn-down {
+    background-image: url(../../img/icons/chevron-preview-down.png);
+}
+
+@media screen and (max-width: 1100px) {
+    .product__wrapper {
+        display: block;
+    }
+    .product-preview__wrapper {
+        max-width: 565px;
+        margin: 0 auto 30px;
+        justify-content: center;
+    }
+}
+

@@ -1,0 +1,9 @@
+.goods{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 100px;
+    padding-top: 20px;
+}

@@ -1,0 +1,111 @@
+.swiper {
+    position: relative;
+
+}
+.hero__wrapper .swiper{
+    max-width: 540px;
+    height: 490px;
+}
+.product-preview__wrapper .swiper{
+    width: 448px;
+    height: 560px;
+
+}
+
+.related__wrapper .swiper{
+    height: 474px;
+}
+.hero__wrapper .swiper-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product-preview__wrapper .swiper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    display: none;
+}
+
+
+.swiper-button-prev,
+.swiper-button-next {
+    width: 40px;
+    height: 40px;
+    background-color: var(--white-color);
+    opacity: 0.6;
+    border-radius:50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: 0.3s ease-in-out;
+}
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    opacity: 1;
+}
+.swiper-button-prev {
+    right: auto;
+    left: 24px;
+    background-image: url("../../img/icons/chevron-left.svg");
+}
+.swiper-button-next {
+    left: auto;
+    right: 24px;
+    background-image: url("../../img/icons/chevron-right.svg");
+}
+
+.related__wrapper .swiper-slide{
+   display: flex;
+    justify-content: center;
+
+}
+.swiper__container .swiper{
+    height: 505px;
+    width: 94px;
+}
+.swiper__container .swiper .swiper-slide{
+   opacity: 0.4;
+}
+
+.swiper__container .swiper .swiper-slide.swiper-slide-thumb-active{
+    opacity: 1;
+}
+@media screen and (max-width: 768px) {
+    .swiper{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .product-preview__wrapper .swiper{
+        height: 500px;
+    }
+    .swiper__container .swiper{
+        height: 444px;
+    }
+}
+@media screen and (max-width: 475px) {
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 10%;
+    }
+
+    .product-preview__wrapper .swiper .swiper-button-next,
+    .product-preview__wrapper .swiper .swiper-button-prev{
+        top: 50%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .product-preview__wrapper .swiper{
+        height: 450px;
+    }
+    .swiper__container .swiper{
+        height: 395px;
+    }
+}
+
+

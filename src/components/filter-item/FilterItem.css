@@ -1,0 +1,49 @@
+.filter__item:not(:last-child){
+    margin-bottom: 16px;
+}
+
+.filter__label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.filter__label:hover {
+    opacity: 1;
+}
+
+.input {
+    display: none;
+}
+.filter__input {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    margin-right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter__input-all {
+border: 1px solid #E6E6E6;;
+    background-color: var(--white-color);
+}
+
+.filter__input-all-checked {
+    background-image: url(../../img/icons/check.svg);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.input:checked + .filter__input-all > span {
+    opacity: 1;
+}

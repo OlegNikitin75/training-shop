@@ -1,0 +1,44 @@
+.btn {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 13px 24px;
+    border-radius: 4px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-fill {
+    background-color: var(--white-color);
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.btn-fill:hover {
+    background-color: var(--cod_gray-color);
+    color: var(--white-color);
+}
+
+.btn-normal {
+    height: 50px;
+    min-width: 118px;
+}
+.btn-large {
+    min-width: 289px;
+    padding: 24px 32px;
+}
+.btn-title{
+    display: block;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    opacity: 0.4;
+    margin-bottom: 14px;
+}
+.btn-subtitle{
+    font-size: 22px;
+    opacity: 1;
+}

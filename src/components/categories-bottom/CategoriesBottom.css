@@ -1,0 +1,77 @@
+.categories-bottom {
+    min-height: 178px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animation__items-wrap {
+    width: 22px;
+    height: 11px;
+}
+
+.animation-items {
+    width: 22px;
+    height: 22px;
+    transform: rotate(45deg);
+}
+
+.animation__item {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background-color: var(--cod_gray-color);
+    transform-origin: center;
+}
+
+@keyframes item1 {
+    50% {
+        transform: translate(-5px, -5px);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes item2 {
+    50% {
+        transform: translate(5px, -5px);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes item3 {
+    50% {
+        transform: translate(-5px, 5px);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes item4 {
+    50% {
+        transform: translate(5px, 5px);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
+.item-1 {
+    animation: item1 1.5s ease-in-out infinite;
+}
+
+.item-2 {
+    animation: item2 1.5s ease-in-out infinite;
+}
+
+.item-3 {
+    animation: item3 1.5s ease-in-out infinite;
+}
+
+.item-4 {
+    animation: item4 1.5s ease-in-out infinite;
+}
