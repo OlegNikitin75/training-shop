@@ -46,8 +46,17 @@
 .filters__list::-webkit-scrollbar-thumb:hover {
     background-color: #253861;
 }
-.filter__result span {
-    padding-right: 10px;
+.filter__result{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.filter__result--active{
+    opacity: 1;
+    visibility: visible;
+}
+.filter__result--active span {
+    padding-right: 8px;
 }
 @media screen and (max-width: 700px){
     .filters__wrapper--active{
